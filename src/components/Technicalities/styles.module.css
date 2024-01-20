@@ -1,0 +1,93 @@
+.technicalities {
+  background-color: var(--primary-background-color);
+  padding: 10rem 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8rem;
+}
+.technicalitiesTop {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 3rem;
+}
+.technicalitiesImage {
+  width: 50%;
+  height: auto;
+  border: none;
+  border-radius: 0.8rem;
+}
+.technicalitiesTitle {
+  font-family: var(--font-header);
+  font-weight: 400;
+  font-size: 3.5rem;
+  color: white;
+  text-align: left;
+}
+.technicalitiesDescription {
+  font-family: var(--font-regular);
+  font-weight: 400;
+  font-size: 1.25rem;
+  color: white;
+  margin-top: 3rem;
+}
+
+.button {
+  margin-top: 4rem;
+}
+
+.learnButton {
+  border-radius: 0.5rem;
+  border: none;
+  background-color: white;
+  color: var(--primary-background-color);
+  padding: 0.8rem 1.25rem;
+  text-decoration: none;
+  font-family: var(--font-semibold);
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.container {
+  background-color: var(--container-color);
+  border-radius: 2rem;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 20rem;
+  width: 100%;
+}
+
+.containerTitle {
+  font-family: var(--font-header);
+  font-weight: 400;
+  font-size: 3rem;
+  color: #000000;
+  text-align: center;
+}
+
+.containerDescription {
+  font-family: var(--font-regular);
+  font-weight: 400;
+  font-size: 1.25rem;
+  color: #000;
+  margin-top: 1rem;
+  text-align: center;
+  width: 70%;
+}
+
+.loginButton {
+  border-radius: 0.5rem;
+  border: none;
+  background-color: var(--primary-background-color);
+  color: white;
+  padding: 0.8rem 2.25rem;
+  text-decoration: none;
+  font-family: var(--font-semibold);
+  font-weight: 600;
+  font-size: 1rem;
+  margin-top: 1.25rem;
+}
