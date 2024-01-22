@@ -4,6 +4,12 @@ import styles from "./page.module.css";
 import Header from "@/components/Header";
 import Details from "@/components/Details";
 import Technicalities from "@/components/Technicalities";
+import VideoCarousel from "@/components/VideoCarousel";
+import LogoCarousel from "@/components/LogoCarousel";
+import MapSection from "@/components/MapSection";
+import HomeSolutions from "@/components/HomeSolutions";
+import Approach from "@/components/Approach";
+import HomeContact from "@/components/HomeContact";
 
 export default function Home() {
   return (
@@ -20,8 +26,14 @@ export default function Home() {
           Portal Login
         </Link>
       </section>
+      <VideoCarousel />
+      <LogoCarousel />
+      <MapSection />
+      <HomeSolutions />
       <Details />
       <Technicalities />
+      <Approach />
+      <HomeContact />
     </main>
   );
 }

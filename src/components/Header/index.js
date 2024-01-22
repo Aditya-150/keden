@@ -36,13 +36,13 @@ export default function Header() {
                 <FaCaretDown size={12} />
               </button>
               <div className={styles.dropdownContent}>
-                <Link className={styles.link} href="#">
+                <Link className={styles.link} href="/it">
                   IT
                 </Link>
-                <Link className={styles.link} href="#">
+                <Link className={styles.link} href="/cybersecurity">
                   Cyber Security
                 </Link>
-                <Link className={styles.link} href="#">
+                <Link className={styles.link} href="/cloudcomputing">
                   Cloud Computing Support
                 </Link>
               </div>

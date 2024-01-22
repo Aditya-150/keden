@@ -9,16 +9,15 @@ export default function About() {
   return (
     <main className={styles.main}>
       <Header />
-      <section className={styles.about}>
-        <h1 className={styles.title}>About Keden</h1>
+      <section className={styles.cloud}>
+        <h1 className={styles.title}>Cloud Computing Support</h1>
         <p className={styles.description}>
-          Priding Ourselves On Top-Tier Network Efficiency, Secure Cyber
-          Support, And Versatile Cloud Solutions
+          As your business grows, having a scalable cloud solution to support
+          your growth is crucial. Without proper storage solutions, slow data
+          retrieval speeds and shortages can render your day-to-day processes
+          inoperable. That’s why our cloud storage solutions include:
         </p>
       </section>
-      <Technicalities />
-      <Approach />
-      <LogoCarousel />
     </main>
   );
 }

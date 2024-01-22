@@ -1,0 +1,94 @@
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.logos-carousel {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.logos-title {
+  font-family: var(--font-header);
+  font-weight: 400;
+  color: #000;
+  font-size: 3rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logos-description {
+  font-family: var(--font-medium);
+  font-weight: 500;
+  font-size: 1.25rem;
+  text-align: center;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logos {
+  overflow: hidden;
+  padding: 60px 0;
+  background: white;
+  white-space: nowrap;
+  position: relative;
+}
+
+.logos:before,
+.logos:after {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
+
+.logos:before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+}
+
+.logos:after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+}
+
+.logos:hover .logos-slide {
+  animation-play-state: paused;
+}
+
+.logos-slide {
+  display: inline-block;
+  animation: 35s slide infinite linear;
+}
+
+.logos-slide img {
+  height: 50px;
+  margin: 0 40px;
+}
+
+@media screen and (max-width: 550px) {
+  .logos-title {
+    font-size: 2rem;
+  }
+
+  .logos-description {
+    font-size: 1rem;
+    width: 90%;
+  }
+  .logos-slide img {
+    height: 30px;
+    width: auto;
+    margin: 0 20px;
+  }
+  .logos-carousel {
+    margin: 2rem 0;
+  }
+}

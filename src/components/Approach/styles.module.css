@@ -1,0 +1,81 @@
+.approach {
+  background-color: var(--tertiary-background-color);
+  padding: 4rem 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.approachTitle {
+  font-family: var(--font-header);
+  font-weight: 400;
+  font-size: 3rem;
+  color: white;
+  text-align: center;
+}
+.approachDescription {
+  font-family: var(--font-medium);
+  font-weight: 500;
+  font-size: 1.25rem;
+  color: white;
+  text-align: center;
+  width: 60%;
+  margin-top: 1rem;
+}
+
+.approachContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.container {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border: none;
+  border-radius: 0.8rem;
+}
+
+.title {
+  font-family: var(--font-semibold);
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: black;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    padding: 2rem;
+  }
+  .vector {
+    height: 2rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .arrow {
+    width: 2rem;
+  }
+  .approach {
+    padding: 4rem 2rem;
+  }
+}
+@media screen and (max-width: 550px) {
+  .approachContainer {
+    flex-direction: column;
+    gap: 1rem
+  }
+  .arrow {
+    transform: rotate(90deg);
+  }
+  .approachDescription {
+    width: 100%;
+  }
+}
