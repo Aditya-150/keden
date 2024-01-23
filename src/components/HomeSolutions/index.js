@@ -1,15 +1,14 @@
-import React from 'react'
-import Image from 'next/image'
+import React from "react";
+import Image from "next/image";
 import background from "../../../public/images/bg2.webp";
 import styles from "./styles.module.css";
-import SolutionContainer from '../SolutionContainer';
+import SolutionContainer from "../SolutionContainer";
 import vector1 from "../../../public/images/scan-barcode.svg";
 import vector2 from "../../../public/images/shield-tick.svg";
 import vector3 from "../../../public/images/finger-cricle.svg";
 import vector4 from "../../../public/images/check.svg";
 
-
-export default function HomeSolutions (){
+export default function HomeSolutions() {
   return (
     <section className={styles.solutions}>
       <h2 className={styles.solutionsTitle}>

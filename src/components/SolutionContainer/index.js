@@ -29,7 +29,7 @@ export default function SolutionContainer({
         backgroundColor: `${background}`,
         // opacity: "0.2",
         border: isHover ? `2px solid ${bgColor}` : "none",
-        height: "16rem",
+        height: "20rem",
         width: "auto",
         padding: "1.25rem",
         display: "flex",

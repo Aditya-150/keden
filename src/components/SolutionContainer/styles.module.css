@@ -30,10 +30,14 @@
   border: none;
   background-color: #090909;
   color: white;
-  padding: 0.8rem 1.25rem;
+  padding: 0.8rem 0;
+  display: block;
   width: 100%;
+  text-align: center;
+  align-content: center;
   text-decoration: none;
   font-family: var(--font-semibold);
   font-weight: 600;
   font-size: 1rem;
+  margin-top: 2.5rem;
 }

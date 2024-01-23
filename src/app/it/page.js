@@ -1,11 +1,12 @@
 import Header from "@/components/Header";
 import React from "react";
 import styles from "./page.module.css";
-import Approach from "@/components/Approach";
-import Technicalities from "@/components/Technicalities";
-import LogoCarousel from "@/components/LogoCarousel";
 import Footer from "@/components/Footer";
 import Portal from "@/components/Portal";
+import SolutionContainer from "@/components/SolutionContainer";
+import vector1 from "../../../public/images/scan-barcode.svg";
+import vector2 from "../../../public/images/shield-tick.svg";
+import vector3 from "../../../public/images/finger-cricle.svg";
 
 export default function About() {
   return (
@@ -21,6 +22,37 @@ export default function About() {
           way to keep the technology-dependent side of your business running
           smoothly. These services include:
         </p>
+      </section>
+      <section className={styles.solutions}>
+        <h2 className={styles.solutionsTitle}>
+          The Perfect Solution For All The Protection Question.
+        </h2>
+        <div className={styles.solutionsTiles}>
+          <SolutionContainer
+            bgColor="#797DF4"
+            vector={vector1}
+            title="System Updates"
+            description="Providing off-the-clock updates to systems to ensure uninterrupted access during business hours."
+            buttonDisabled={true}
+            className={styles.tile}
+          />
+          <SolutionContainer
+            bgColor="#FF9AD5"
+            vector={vector2}
+            title="Off-Site Support"
+            description="Troubleshooting issues while helping users navigate systems with off-site support solutions. "
+            buttonDisabled={true}
+            className={styles.tile}
+          />
+          <SolutionContainer
+            bgColor="#FFD200"
+            vector={vector3}
+            title="Seamless Infrastructure"
+            description="Ensuring that internal systems function as intended with speed and security."
+            className={styles.tile}
+            buttonDisabled={true}
+          />
+        </div>
       </section>
       <Portal
         title="Client Portal Login"

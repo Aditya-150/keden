@@ -11,6 +11,7 @@ import HomeSolutions from "@/components/HomeSolutions";
 import Approach from "@/components/Approach";
 import HomeContact from "@/components/HomeContact";
 import Footer from "@/components/Footer";
+import Portal from "@/components/Portal";
 
 export default function Home() {
   return (
@@ -32,7 +33,16 @@ export default function Home() {
       <MapSection />
       <HomeSolutions />
       <Details />
-      <Technicalities />
+      <Technicalities
+        title="We Have Been Certified And Trusted By Clients"
+        description="Each member of the Nzamu team takes an oath to provide top-notch service and support to our clients. Addressing network attacks with speed while deploying"
+      />
+      <Portal
+        title="Client Portal Login"
+        description="To access your account information, enter a new ticket, or check on the status of an existing ticket, please login into our client portal."
+        buttonText="Login"
+        buttonLink="/login"
+      />
       <Approach />
       <HomeContact />
       <Footer />

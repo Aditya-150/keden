@@ -67,7 +67,7 @@ export default function Footer() {
             101 S. Reid Street, Suite 307, Sioux Falls, SD 57103
           </div>
         </div>
-        <div className="subscribe">
+        <div className={styles.subscribe}>
           <div className={styles.title}>Subscribe</div>
           <div className={styles.description}>
             Streamline Your Business Processes Today
