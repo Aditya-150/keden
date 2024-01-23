@@ -4,6 +4,8 @@ import styles from "./page.module.css";
 import Approach from "@/components/Approach";
 import Technicalities from "@/components/Technicalities";
 import LogoCarousel from "@/components/LogoCarousel";
+import Footer from "@/components/Footer";
+import Portal from "@/components/Portal";
 
 export default function About() {
   return (
@@ -20,6 +22,13 @@ export default function About() {
           smoothly. These services include:
         </p>
       </section>
+      <Portal
+        title="Client Portal Login"
+        description="To access your account information, enter a new ticket, or check on the status of an existing ticket, please login into our client portal."
+        buttonText="Login"
+        buttonLink="/login"
+      />
+      <Footer />
     </main>
   );
 }

@@ -4,6 +4,7 @@ import styles from "./page.module.css";
 import Approach from "@/components/Approach";
 import Technicalities from "@/components/Technicalities";
 import LogoCarousel from "@/components/LogoCarousel";
+import Footer from "@/components/Footer";
 
 export default function About() {
   return (
@@ -19,6 +20,7 @@ export default function About() {
       <Technicalities />
       <Approach />
       <LogoCarousel />
+      <Footer />
     </main>
   );
 }

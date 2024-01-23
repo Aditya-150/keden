@@ -10,6 +10,7 @@ import MapSection from "@/components/MapSection";
 import HomeSolutions from "@/components/HomeSolutions";
 import Approach from "@/components/Approach";
 import HomeContact from "@/components/HomeContact";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -34,6 +35,7 @@ export default function Home() {
       <Technicalities />
       <Approach />
       <HomeContact />
+      <Footer />
     </main>
   );
 }
