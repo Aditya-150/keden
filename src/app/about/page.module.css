@@ -49,6 +49,7 @@
   height: auto;
   border: none;
   border-radius: 0.8rem;
+  box-shadow: 0px 4px 85.6px 0px rgba(193, 170, 255, 0.20);
 }
 .advantagesTitle {
   font-family: var(--font-header);
@@ -130,6 +131,11 @@
   font-weight: 600;
   font-size: 1rem;
 }
+.advButton:hover {
+  background-color: #ffffff;
+  color: black;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.10);
+}
 
 .mission {
   background-color: var(--secondary-background-color);
@@ -195,6 +201,13 @@
     font-size: 2rem;
   }
   .missionDescription {
+    width: 90%;
+  }
+  .title {
+    font-size: 3rem;
+    width: 80%
+  }
+  .description{
     width: 90%;
   }
 }

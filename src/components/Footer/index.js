@@ -40,7 +40,7 @@ export default function Footer() {
           <h3 className={styles.title}>Quick Links</h3>
           <ul className={styles.list}>
             <li className={styles.listLink}>
-              <Link href="/home" className={styles.link}>
+              <Link href="/" className={styles.link}>
                 Home
               </Link>
             </li>

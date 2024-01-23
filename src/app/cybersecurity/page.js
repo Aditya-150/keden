@@ -35,7 +35,7 @@ export default function About() {
             vector={vector1}
             title="Constant Monitoring"
             description="Ensuring fast network response times to threats."
-            buttonDisabled={false}
+            buttonDisabled={true}
             buttonLink="/about"
             className={styles.tile}
           />
@@ -44,7 +44,7 @@ export default function About() {
             vector={vector2}
             title="Continual Updates"
             description="Keeping firewalls and security measures up to date with new patches and configurations."
-            buttonDisabled={false}
+            buttonDisabled={true}
             buttonLink="/about"
             className={styles.tile}
           />
@@ -54,7 +54,7 @@ export default function About() {
             title="Threat Response"
             description="Addressing network attacks with speed while deploying industry-leading tactics to keep businesses ahead of threats."
             className={styles.tile}
-            buttonDisabled={false}
+            buttonDisabled={true}
             buttonLink="/about"
           />
         </div>

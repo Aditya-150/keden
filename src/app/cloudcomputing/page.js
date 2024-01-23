@@ -34,7 +34,7 @@ export default function About() {
             vector={vector1}
             title="Scaleable Support"
             description="Providing data backup and readily-available storage that grows with your business. "
-            buttonDisabled={false}
+            buttonDisabled={true}
             buttonLink="/about"
             className={styles.tile}
           />
@@ -43,7 +43,7 @@ export default function About() {
             vector={vector2}
             title="Automated Integration"
             description="Helping your business streamline the data collection, storing, and retrieval process automatically."
-            buttonDisabled={false}
+            buttonDisabled={true}
             buttonLink="/about"
             className={styles.tile}
           />
@@ -53,7 +53,7 @@ export default function About() {
             title="Efficient Access"
             description="Offering instantaneous access to the entirety of your data without expansive physical storage devices."
             className={styles.tile}
-            buttonDisabled={false}
+            buttonDisabled={true}
             buttonLink="/about"
           />
         </div>

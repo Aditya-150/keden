@@ -44,10 +44,48 @@
   font-size: 1rem;
 }
 .aboutButton {
-  outline: 1px solid white;
+  outline: 2px solid white;
   background-color: transparent;
 }
+.aboutButton:hover {
+  background-color: white;
+  color: black;
+}
 .videoButton {
-  outline: 1px solid var(--primary-background-color);
+  outline: 2px solid var(--primary-background-color);
   background-color: var(--primary-background-color);
+}
+.videoButton:hover {
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 880px) {
+  .details {
+    flex-direction: column-reverse;
+  }
+  .detailsData {
+    align-items: center;
+  }
+  .detailsTitle,
+  .detailsDescription {
+    text-align: center;
+  }
+  .detailsCTA {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .detailsImage {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .details {
+    padding: 4rem 2rem;
+  }
+  .detailsTitle {
+    font-size: 2rem;
+  }
 }

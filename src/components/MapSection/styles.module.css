@@ -12,11 +12,12 @@
   color: #fff;
 }
 .mapDescription {
-  font-family: var(--font-medium);
-  font-weight: 500;
+  font-family: var(--font-regular);
+  font-weight: 400;
   font-size: 1.25rem;
   color: #fff;
   margin-top: 0.5rem;
+  text-align: center;
 }
 
 .mapContainer {
@@ -31,4 +32,25 @@
 .mapImage {
   height: 100%;
   width: 100%;
+}
+
+@media screen and (max-width: 880px) {
+  .mapContainer {
+    height: 30rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .mapTitle {
+    font-size: 2rem;
+  }
+  .mapDescription {
+    font-size: 1rem;
+  }
+  .map {
+    padding: 2rem;
+  }
+  .mapContainer {
+    height: 16rem;
+  }
 }

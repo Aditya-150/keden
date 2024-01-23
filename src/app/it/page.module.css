@@ -67,4 +67,11 @@
   .solutionsTitle {
     font-size: 2rem;
   }
+  .title {
+    font-size: 3rem;
+    width: 80%
+  }
+  .description{
+    width: 90%;
+  }
 }

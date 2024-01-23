@@ -108,3 +108,74 @@
   font-weight: 600;
   font-size: 1rem;
 }
+.button:hover {
+  opacity: 0.7;
+}
+
+.toggle {
+  display: none;
+}
+
+.menuClosed {
+  display: none;
+}
+.menu {
+  display: flex;
+  background-color: var(--primary-background-color);
+  padding: 1rem 2rem 2rem;
+}
+.menuList {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.menuLink {
+  margin-top: 1rem;
+}
+
+.menuButton {
+  color: white;
+  font-family: var(--font-semibold);
+  font-weight: 600;
+  font-size: 1rem;
+}
+.menuDrop {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.menuDropdownContent {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+  padding: 0 1rem;
+}
+.menuDropdownHider {
+  display: none;
+}
+
+@media screen and (max-width: 880px) {
+  .toggle {
+    background-color: #2b3252;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
+  .navMenu {
+    display: none;
+  }
+  .nav {
+    padding: 1rem 2rem;
+  }
+  .button {
+    display: none;
+  }
+}

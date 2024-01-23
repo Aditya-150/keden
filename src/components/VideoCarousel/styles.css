@@ -1,6 +1,6 @@
 .carousel {
   background: var(--primary-background-color);
-  padding: 4rem 0 4rem;
+  padding: 2rem 0 4rem;
 }
 .swiper {
   width: 100%;
@@ -69,16 +69,16 @@
   font-size: 1rem;
 }
 
+.slide-button:hover {
+  background-color: black;
+  color: white;
+}
+
 .slide-container {
   margin-top: 2rem;
 }
 
 @media screen and (max-width: 880px) {
-  .play-button {
-    height: 3rem;
-    padding: 0;
-    margin: 0;
-  }
   .slide-content {
     top: 40%;
   }
@@ -92,9 +92,6 @@
   }
 }
 @media screen and (max-width: 550px) {
-  .play-button {
-    height: 2rem;
-  }
   .slide-content {
     top: 25%;
   }
