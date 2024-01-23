@@ -5,6 +5,7 @@ import styles from "./page.module.css";
 import Approach from "@/components/Approach";
 import advantagesImage from "../../../public/images/video1.jpg";
 import LogoCarousel from "@/components/LogoCarousel";
+import Technicalities from "@/components/Technicalities";
 import Footer from "@/components/Footer";
 import Portal from "@/components/Portal";
 import Image from "next/image";
@@ -15,8 +16,11 @@ import adv3 from "../../../public/images/adv-img-3.webp";
 
 function AdvContainer({ image, title, description, color }) {
   return (
-    <div className={styles.advContainer} style={{ backgroundColor: `${color}` }}>
-      <Image src={image} alt="adv image" className={styles.advImage}/>
+    <div
+      className={styles.advContainer}
+      style={{ backgroundColor: `${color}` }}
+    >
+      <Image src={image} alt="adv image" className={styles.advImage} />
       <h4 className={styles.advTitle}>{title}</h4>
       <p className={styles.advDescription}>{description}</p>
       <Link href="/contact" className={styles.advButton}>
@@ -118,7 +122,7 @@ export default function About() {
           trusted technology to drive better business results.
         </p>
       </section>
-      <advantages title="Our Core Values" description={renderedHtml} />
+      <Technicalities title="Our Core Values" description={renderedHtml} />
       <Portal
         title="For Your Business Growth"
         description="Are you ready to take your business to the next level with better cyber functionality and networking support? Reach out to our Nzamu team today to learn how our processes can accelerate your business growth."
