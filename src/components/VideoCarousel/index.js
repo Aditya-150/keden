@@ -51,7 +51,7 @@ export default function VideoCarousel() {
             </p>
             <div className="slide-container">
               <Link href="/login" className="slide-button">
-                Portal Login
+                Learn More
               </Link>
             </div>
           </div>
@@ -69,7 +69,7 @@ export default function VideoCarousel() {
             </p>
             <div className="slide-container">
               <Link href="/login" className="slide-button">
-                Portal Login
+                Learn More
               </Link>
             </div>
           </div>
@@ -87,7 +87,7 @@ export default function VideoCarousel() {
             </p>
             <div className="slide-container">
               <Link href="/login" className="slide-button">
-                Portal Login
+                Learn More
               </Link>
             </div>
           </div>

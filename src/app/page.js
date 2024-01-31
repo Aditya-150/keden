@@ -25,7 +25,7 @@ export default function Home() {
           Resilience.
         </p>
         <Link href="/login" className={styles.button}>
-          Portal Login
+          Learn More
         </Link>
       </section>
       <VideoCarousel />
