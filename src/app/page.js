@@ -35,7 +35,7 @@ export default function Home() {
       <Details />
       <Technicalities
         title="We Have Been Certified And Trusted By Clients"
-        description="Each member of the Nzamu team takes an oath to provide top-notch service and support to our clients. Addressing network attacks with speed while deploying"
+        description="Each member of the Keden team takes an oath to provide top-notch service and support to our clients. Addressing network attacks with speed while deploying"
       />
       <Portal
         title="Client Portal Login"

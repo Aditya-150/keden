@@ -3,7 +3,7 @@ import React from "react";
 import styles from "./styles.module.css";
 import Image from "next/image";
 import Link from "next/link";
-import technicalitiesImage from "../../../public/images/mobile-2.webp";
+import technicalitiesImage from "../../../public/images/mobile-2.jpg";
 
 export default function technicalities({ title, description }) {
   return (

@@ -86,7 +86,7 @@ export default function Footer() {
       </div>
       <div className={styles.footerLine}></div>
       <div className={styles.footerEnd}>
-        © {new Date().getFullYear()} Nzamu. All rights reserved
+        © {new Date().getFullYear()} Keden. All rights reserved
       </div>
     </section>
   );
