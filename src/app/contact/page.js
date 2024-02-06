@@ -15,7 +15,7 @@ export default function Contact() {
       <section className={styles.contact}>
         <h1 className={styles.title}>Contact Keden</h1>
         <p className={styles.description}>
-          By working with Nzamu, you’re gaining a forward-leaning partner with
+          By working with Keden, you’re gaining a forward-leaning partner with
           unparalleled expertise in cloud computing, cyber security, network
           operations, IT support, data backups, and more. 
         </p>

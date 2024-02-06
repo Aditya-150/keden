@@ -10,9 +10,9 @@ import Footer from "@/components/Footer";
 import Portal from "@/components/Portal";
 import Image from "next/image";
 import Link from "next/link";
-import adv1 from "../../../public/images/adv-img-1.webp";
-import adv2 from "../../../public/images/adv-img-2.webp";
-import adv3 from "../../../public/images/adv-img-3.webp";
+import adv1 from "../../../public/images/adv-img-1.jpg";
+import adv2 from "../../../public/images/adv-img-2.jpg";
+import adv3 from "../../../public/images/adv-img-3.jpg";
 
 function AdvContainer({ image, title, description, color }) {
   return (
@@ -36,7 +36,7 @@ export default function About() {
   useEffect(() => {
     const html = (
       <div>
-        Each member of the Nzamu team takes an oath to provide top-notch service
+        Each member of the Keden team takes an oath to provide top-notch service
         and support to our clients. We embody the highest ideals of service,
         including:
         <div>
@@ -73,11 +73,11 @@ export default function About() {
       <section className={styles.advantages}>
         <div className={styles.advantagesTop}>
           <div className={styles.advantagesData}>
-            <h2 className={styles.advantagesTitle}>The Nzamu Advantage</h2>
+            <h2 className={styles.advantagesTitle}>The Keden Advantage</h2>
             <p className={styles.advantagesDescription}>
-              By working with Nzamu for your cyber, network, and cloud-based
+              By working with Keden for your cyber, network, and cloud-based
               business needs, you are ensured a streamlined and reliable
-              partnership from start to finish. Here’s why Nzamu is the trusted
+              partnership from start to finish. Here’s why Keden is the trusted
               name to know for IT and cyber solutions Qualified IT Experts
             </p>
             <div className={styles.button}>
@@ -108,7 +108,7 @@ export default function About() {
           <AdvContainer
             image={adv3}
             title="Accelerated Setup"
-            description="Enjoy streamlined integration when you partner with Nzamu. We have the knowledge and expertise to fast track your setup."
+            description="Enjoy streamlined integration when you partner with Keden. We have the knowledge and expertise to fast track your setup."
             color="#FFFBE6"
           />
         </div>
@@ -116,7 +116,7 @@ export default function About() {
       <section className={styles.mission}>
         <h2 className={styles.missionTitle}>Our Mission Statement</h2>
         <p className={styles.missionDescription}>
-          At Nzamu, our mission is to support businesses with the most
+          At Keden, our mission is to support businesses with the most
           competitive rates available for quality IT, cyber security, data
           backup, and cloud-computing services. We believe in the power of
           trusted technology to drive better business results.
@@ -125,7 +125,7 @@ export default function About() {
       <Technicalities title="Our Core Values" description={renderedHtml} />
       <Portal
         title="For Your Business Growth"
-        description="Are you ready to take your business to the next level with better cyber functionality and networking support? Reach out to our Nzamu team today to learn how our processes can accelerate your business growth."
+        description="Are you ready to take your business to the next level with better cyber functionality and networking support? Reach out to our Keden team today to learn how our processes can accelerate your business growth."
         buttonText="Get in touch"
         buttonLink="/contact"
       />

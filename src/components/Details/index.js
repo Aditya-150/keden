@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./styles.module.css";
 import Image from "next/image";
 import Link from "next/link";
-import detailsImage from "../../../public/images/mobile-1.webp";
+import detailsImage from "../../../public/images/mobile-1.jpg";
 
 export default function Details() {
   return (
@@ -17,7 +17,7 @@ export default function Details() {
           We Have Been Certified And Trusted By Clients
         </h2>
         <p className={styles.detailsDescription}>
-          Each member of the Nzamu team takes an oath to provide top-notch
+          Each member of the Keden team takes an oath to provide top-notch
           service and support to our clients. Addressing network attacks with
           speed while deploying
         </p>
