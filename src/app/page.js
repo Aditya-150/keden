@@ -34,8 +34,8 @@ export default function Home() {
       <HomeSolutions />
       <Details />
       <Technicalities
-        title="We Have Been Certified And Trusted By Clients"
-        description="Each member of the Keden team takes an oath to provide top-notch service and support to our clients. Addressing network attacks with speed while deploying"
+        title="Provide Advanced Security For Advanced Threat"
+        description="Addressing network attacks with speed while deploying industry-leading tactics to keep businesses ahead of threats."
       />
       <Portal
         title="Client Portal Login"
