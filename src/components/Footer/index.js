@@ -21,20 +21,6 @@ export default function Footer() {
             Priding Ourselves on Top-Tier Network Efficiency, Secure Cyber
             Support, and Versatile Cloud Solutions
           </div>
-          <div className={styles.social}>
-            <div className={styles.socialIcons}>
-              <Image src={facebook} alt="facebook" className={styles.icon} />
-            </div>
-            <div className={styles.socialIcons}>
-              <Image src={twitter} alt="twitter" className={styles.icon} />
-            </div>
-            <div className={styles.socialIcons}>
-              <Image src={youtube} alt="youtube" className={styles.icon} />
-            </div>
-            <div className={styles.socialIcons}>
-              <Image src={twitch} alt="twitch" className={styles.icon} />
-            </div>
-          </div>
         </div>
         <div className={styles.links}>
           <h3 className={styles.title}>Quick Links</h3>
@@ -61,12 +47,6 @@ export default function Footer() {
             </li>
           </ul>
         </div>
-        <div className={styles.address}>
-          <div className={styles.title}>Our Office</div>
-          <div className={styles.description}>
-            101 S. Reid Street, Suite 307, Sioux Falls, SD 57103
-          </div>
-        </div>
         <div className={styles.subscribe}>
           <div className={styles.title}>Subscribe</div>
           <div className={styles.description}>
@@ -78,7 +58,7 @@ export default function Footer() {
             className={styles.input}
           />
           <div className={styles.buttonContainer}>
-            <Link href="#" className={styles.button}>
+            <Link href="mailto:mail@keden.tech" className={styles.button}>
               Subscribe Now
             </Link>
           </div>

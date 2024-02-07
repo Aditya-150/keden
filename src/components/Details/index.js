@@ -25,12 +25,6 @@ export default function Details() {
           <Link href="/about" className={styles.aboutButton}>
             About Us
           </Link>
-          <Link
-            href="https://www.youtube.com/watch?v=qx3Zu5GdiQs"
-            className={styles.videoButton}
-          >
-            Watch Video
-          </Link>
         </div>
       </div>
     </section>

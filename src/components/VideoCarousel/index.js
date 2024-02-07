@@ -47,7 +47,8 @@ export default function VideoCarousel() {
           <div className="slide-content">
             <h3 className="slide-title">Providing 360° IT Solutions</h3>
             <p className="slide-description">
-              We believe security is by design and not by updates
+              Empowering Security in the Digital Age, Safeguarding Your Every
+              Click
             </p>
             <div className="slide-container">
               <Link href="/login" className="slide-button">
@@ -65,7 +66,7 @@ export default function VideoCarousel() {
           <div className="slide-content">
             <h3 className="slide-title">Bringing Best Security Services</h3>
             <p className="slide-description">
-              We believe security is by design and not by updates
+              Stay Ahead, Stay Secure: Your Cyber Safety Partners
             </p>
             <div className="slide-container">
               <Link href="/login" className="slide-button">
@@ -83,7 +84,7 @@ export default function VideoCarousel() {
           <div className="slide-content">
             <h3 className="slide-title">Securing Your Privacy and Data</h3>
             <p className="slide-description">
-              We believe security is by design and not by updates
+              Keeping Your Data Safe, Your Peace of Mind Intact
             </p>
             <div className="slide-container">
               <Link href="/login" className="slide-button">

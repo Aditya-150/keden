@@ -34,7 +34,7 @@ export default function Contact() {
               cyber functionality and networking support?
             </p>
             <div className={styles.detailsConnect}>
-              <div className={styles.connect}>
+              {/* <div className={styles.connect}>
                 <div className={`${styles.connectCircle} ${styles.first}`}>
                   <Image src={icon1} alt="icon" className={styles.icon} />
                 </div>
@@ -47,14 +47,17 @@ export default function Contact() {
                   <Image src={icon2} alt="icon" className={styles.icon} />
                 </div>
                 <div className={styles.connectText}>1-800-410-3751</div>
-              </div>{" "}
+              </div>{" "} */}
               <div className={styles.connect}>
                 <div className={`${styles.connectCircle} ${styles.third}`}>
                   <Image src={icon3} alt="icon" className={styles.icon} />
                 </div>
-                <div className={styles.connectText}>
-                  info@website-4d0ad1f0.zme.cul.mybluehost.me
-                </div>
+                <Link
+                  className={styles.connectText}
+                  href="mailto:info@keden.tech"
+                >
+                  info@keden.tech
+                </Link>
               </div>
             </div>
           </div>
@@ -83,8 +86,8 @@ export default function Contact() {
             </div>
             <textarea placeholder="Your Message" className={styles.message} />
             <div className={styles.box}>
-              <Link href="/login" className={styles.button}>
-                Login
+              <Link href="mailto:info@keden.tech" className={styles.button}>
+                Submit
               </Link>
             </div>
           </div>
